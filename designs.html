@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGNS COMPANY - Товары</title>
+    <link rel="stylesheet" href="designs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DESIGNS COMPANY</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href='index.html'>Главная</a></li>
+                <li><a href='about-us.html'>О нас</a></li>
+                <li><a href='designs.html'>Товары</a></li>
+                <li><a href='korzina.html'>Корзина (<span id="cart-count">0</span>)</a></li>
+                <li> <a href='items.html'>Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="page-title">Наши товары</h2>
+        
+        <div class="products-container">
+            <!-- Товар 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl5.png" alt="Стул модель 1">
+                </div>
+                <div class="product-info">
+                    <h3>Стул офисный</h3>
+                    <p class="description">Эргономичный офисный стул с регулируемой высотой</p>
+                    <p class="details">Материал: металл, экокожа</p>
+                    <p class="price">3 990 ₽</p>
+                    <button class="add-to-cart" data-id="1" data-name="Стул офисный" data-price="3990">Добавить в корзину</button>
+                </div>
+            </div>
+            
+            <!-- Товар 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl1.jpg" alt="Стул модель 2">
+                </div>
+                <div class="product-info">
+                    <h3>Стул деревянный</h3>
+                    <p class="description">Классический деревянный стул для кухни</p>
+                    <p class="details">Материал: натуральное дерево</p>
+                    <p class="price">4 790 ₽</p>
+                    <button class="add-to-cart" data-id="2" data-name="Стул деревянный" data-price="4790">Добавить в корзину</button>
+                </div>
+            </div>
+            
+            <!-- Товар 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl4.png" alt="Стул модель 3">
+                </div>
+                <div class="product-info">
+                    <h3>Стул барный</h3>
+                    <p class="description">Высокий барный стул с мягким сиденьем</p>
+                    <p class="details">Материал: металл, текстиль</p>
+                    <p class="price">2 190 ₽</p>
+                    <button class="add-to-cart" data-id="3" data-name="Стул барный" data-price="2190">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <!-- Товар 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl3.png" alt="Стул модель 4">
+                </div>
+                <div class="product-info">
+                    <h3>Стул складной</h3>
+                    <p class="description">Удобный складной стул для дачи и пикников</p>
+                    <p class="details">Материал: металл, ткань</p>
+                    <p class="price">2 190 ₽</p>
+                    <button class="add-to-cart" data-id="4" data-name="Стул складной" data-price="2190">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <!-- Товар 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl13.png" alt="Стул модель 5">
+                </div>
+                <div class="product-info">
+                    <h3>Стул детский</h3>
+                    <p class="description">Яркий детский стул с безопасными закругленными краями</p>
+                    <p class="details">Материал: пластик</p>
+                    <p class="price">1 590 ₽</p>
+                    <button class="add-to-cart" data-id="5" data-name="Стул детский" data-price="1590">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <!-- Товар 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl6.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="6" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl11.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="7" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl8.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="8" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl9.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="9" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/styl10.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="10" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/lampa1.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="10" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/lampa2.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="10" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/lampa3.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="10" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/lampa4.png" alt="Стул модель 6">
+                </div>
+                <div class="product-info">
+                    <h3>Стул компьютерный</h3>
+                    <p class="description">Профессиональный компьютерный стул с поддержкой спины</p>
+                    <p class="details">Материал: металл, сетчатая ткань</p>
+                    <p class="price">5 990 ₽</p>
+                    <button class="add-to-cart" data-id="10" data-name="Стул компьютерный" data-price="5990">Добавить в корзину</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
